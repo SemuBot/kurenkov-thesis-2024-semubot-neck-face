@@ -41,3 +41,16 @@ This repository contains the table of materials, design files needed for the fab
 | M2.5 x 4mm Bolt | 3 | - |
 | HDMI to HDMI-mini cable 1m | 1 | - |
 | USB-A to USB-C 3.0 cable 1m | 1 | - |
+
+### Items for the Motor Movement Testing ###
+
+| Item | Amount |
+| ---- | :---: |
+| Arduino Uno | 1 |
+| Digital Stepper Driver DM542T | 1 |
+| USB-A to USB-B cable | 1 |
+| Jumper Wire | 6 |
+
+For Stepper Motor test movement, upload the [script](https://github.com/incrut/kurenkov-thesis-2024-semubot-neck-face/blob/main/Software/stepper_test_movement/stepper_test_movement.ino) to Arduino Uno. When the circuit is assembled, you can control the stepper with keys "w" and "s" to move and "x" to stop movement.
+### Circuit Assembly ###
+![](https://github.com/incrut/kurenkov-thesis-2024-semubot-neck-face/blob/main/Media/Circuit%20Assembly.png)
